@@ -1,0 +1,7 @@
+{
+  "name": "sdaSongbook",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
