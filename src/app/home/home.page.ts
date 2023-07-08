@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import data from '../../data/data.json';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+
+  data:any = data;
 
 }

@@ -22,7 +22,11 @@
       "es2018", 
       "dom"
     ],
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+
+    // added (not by default)
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
