@@ -1,0 +1,25 @@
+<ion-content [fullscreen]="true">
+  <div class="p-1">
+    <div class="title">
+      {{ song?.title }}
+    </div>
+  
+    <div [ngClass]="{'mt-1': !first}"
+      *ngFor="let i of song?.flow; first as first">
+
+      <div>
+          <span *ngIf="i.includes('verse')">
+            Verse
+          </span>
+          <span *ngIf="i.includes('chorus')">
+            Chorus
+          </span>
+
+          <span [textContent]="i | digitOnly"></span>
+      </div>
+      
+      <div class="ws-pl" [textContent]="getLyrics(i)"></div>
+  
+    </div>
+  </div>
+</ion-content>

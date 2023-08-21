@@ -1,32 +1,12 @@
 [
     {
-        "title": "Song 1"
-    },
-    {
-        "title": "Song 2"
-    },
-    {
-        "title": "Song 1"
-    },
-    {
-        "title": "Song 2"
-    },
-    {
-        "title": "Song 1"
-    },
-    {
-        "title": "Song 2"
-    },
-    {
-        "title": "Song 1"
-    },
-    {
-        "title": "Song 2"
-    },
-    {
-        "title": "Song 1"
-    },
-    {
-        "title": "Song 2"
+        "title": "I Will Go",
+        "lyrics": {
+            "en": {
+                "verses": [
+                    "I hear the voice of Jesus calling \n My answer is, I will go"
+                ]
+            }
+        }
     }
 ]

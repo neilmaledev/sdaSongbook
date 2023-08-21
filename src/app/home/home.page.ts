@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import data from '../../data/data.json';
+import data from '../../data/data';
 
 @Component({
   selector: 'app-home',
